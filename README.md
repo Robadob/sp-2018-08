@@ -23,7 +23,7 @@ Open `USP_AlternateGrid.sln` with Visual Studio 2013 (newer versions are also li
 *Note: Compilation currently builds for architecture `sm_61`. You may wish to change this inside each project in Visual Studio to build for your specific hardware.*
 
 ### Linux
-`debug.sh` and `release.sh` can be called from the root directory or those of the individual projects. These will build the associated projects. Binaries are built to `bin\64`.
+`debug.sh` and `release.sh` can be called from the root directory or those of the individual projects. These will build the associated projects. Binaries are built to `x64`.
 
 Depending on the environment it may be necessary to load `CUDA` and `gcc` prior to compilation, this may be achieved using:
 
